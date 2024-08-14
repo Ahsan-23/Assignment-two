@@ -1,0 +1,133 @@
+/* navbar responsive */
+@media screen and (max-width:576px) {
+    .hamburger{
+        display: block;
+        color: white;
+        font-size: 30px;
+        margin-right: 20px;
+    }
+    .nav-banner-section {
+       align-items: space-between;
+       
+    }
+    .banner-right{
+        display: none;
+    }
+    .fitness{
+        margin-left: 20px;
+    }
+  
+}
+
+/* Banner-responsive */
+@media screen and (max-width:576px) {
+    .banner-section {
+        flex-direction: column;
+    }
+    .banner-left-container{
+        padding-left: 30px;
+    }
+    .banner-right-container{
+      left: 70px;
+      padding-top: 50px;
+    }
+    .video-container{
+        left: 0;
+    }
+}
+
+/* Change your habit section */
+
+@media screen and (max-width:576px) {
+    .second-banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .exercise{
+        flex-direction: column;
+        padding-left: 90px;
+    }
+    .i-header{
+       text-align: left;
+       padding-left: 80px;
+    }
+    .i-des{
+        text-align: left;
+    }
+    
+}
+
+/* run section responsive */
+@media screen and (max-width:576px) {
+    .run-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .run-right{
+        padding-top: 20px;
+    }
+    .r-btn{
+        width: 260px;
+    }
+}
+/* ------------- */
+
+/* BMI responsive */
+@media screen and (max-width:576px) {
+    .bmi{
+        display: flex;
+        flex-direction: column;
+    }
+    .outer-cal{
+        display: flex;
+        flex-direction: column;
+    }
+    .chart-right{
+        padding-left: 95px;
+    }
+}
+/* ---------- */
+
+/* meet our team */
+@media screen and (max-width:576px) {
+    .mot-whole{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .div-one{
+        flex-direction: column;
+        padding-left: 60px;
+    }
+    .div-two{
+        flex-direction: column;
+        padding-left: 60px;
+    }
+}
+/* ------------ */
+
+/* footer */
+
+@media screen and (max-width:576px) {
+    .footer-wrap{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+       
+    }
+    .get-started{
+        padding-left: 45px;
+        padding-top: 50px;
+    }
+    .get-started-two{
+        padding-top: 30px;
+    }
+    .fitness{
+        
+        width: 40%;
+        text-align: left;
+        padding-right: 60px;
+    }
+    
+    
+}
